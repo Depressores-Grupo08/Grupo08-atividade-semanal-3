@@ -27,6 +27,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     font-family: 'inter';
+    flex-wrap: wrap;
 }
 
 .not-1 {
