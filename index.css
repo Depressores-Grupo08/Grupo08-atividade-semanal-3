@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 .bodyComunidade{
     margin: 0px;
     padding: 0px;
@@ -39,7 +40,6 @@
     line-height: 36px;
     letter-spacing: 0em;
     text-align: center;
-
 }
 .pTheWise{
     display: flex;
@@ -53,6 +53,8 @@
     line-height: 28px;
     text-align: center;
     padding-bottom: 50px;
+    flex-wrap: wrap;
+    width: 426px;
 }
 .containerboxes{
     display: flex;
@@ -97,6 +99,7 @@ h5{
     line-height: 26px;
 }
 p{
+    width: 328px;
     margin: 0px;
     padding: 0px;
     padding-bottom: 15px;
