@@ -5,6 +5,7 @@
     box-sizing: 0;
     background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
     font-family: 'Inter';
+    font-style: normal;
 }
 .OurCommunity{
     display: flex;
@@ -30,9 +31,15 @@
     display: flex;
     justify-content: center;
     color:#0A093D;
-    text-align: center;
     margin: 0px;
     padding-bottom: 15px;
+    font-family: 'Inter';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+
 }
 .pTheWise{
     display: flex;
@@ -80,9 +87,9 @@
 h5{
     color:#2F2C4A;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: flex-end;
     margin: 0px;
-    padding-bottom: 14px;
+    padding-bottom: 10px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -95,11 +102,10 @@ p{
     padding-bottom: 15px;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     color:#656464;
     font-family: 'Inter';
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    text-align: center;
 }
