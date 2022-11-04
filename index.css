@@ -4,11 +4,12 @@ body {
 }
 
 .titunews {
-    margin: 5%;
+    margin: 50px;
     font-family: 'Inter';
 }
 
 #get {
+    margin: 0px;
     text-align: center;
     color: #217BF4;
     font-size: 18px;
@@ -16,11 +17,12 @@ body {
 }
 
 #news {
+    margin: 0px;
     text-align: center;
     color: #0A093D;
     font-size: 36px;
     font-weight: 900;
-    height: 16px;
+    height: 50px;
 }
 
 .noticias {
@@ -42,12 +44,13 @@ body {
     width: 350px;
 }
 
-.cont-not-1{
+.cont-not-1 {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     flex-direction: row;
 }
+
 .linha {
     width: 50px;
     height: 0px;
@@ -62,13 +65,15 @@ body {
     color: #2F2C4A;
 }
 
-.cr-cinza{
+.cr-cinza {
     color: #656464;
     font-size: 16px;
     font-weight: 400;
+    background: none;
+    border: none;
 }
 
-.cont-not-2{
+.cont-not-2 {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -79,6 +84,8 @@ body {
     color: #217BF4;
     font-size: 16px;
     font-weight: 400;
+    background: none;
+    border: none;
 }
 
 .cont-not-3 {
