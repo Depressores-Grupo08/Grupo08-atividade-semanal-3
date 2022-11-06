@@ -2,11 +2,11 @@
 
 .sectionsobre{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; 
     flex-direction: row;
     padding: 0px;
     margin: 0px;
-    /*margin-top: 60px;*/
+    margin-top: 70px;
     background: #FFFFFF;
 }
 .textdiv{
@@ -19,7 +19,6 @@
     width: 500px;
     margin: 0px;
     padding: 0px;
-    /*IMPORTANTE AQUIIIIIIIIIIIIIIIIII*/
 }
 .pWhats{
     display: flex;
@@ -38,6 +37,8 @@
     line-height: 46px;
     color: #0A093D;
     margin: 0px;
+    max-width: 400px;
+    margin-bottom: 16px;
 }
 .precent{
     display: flex;
@@ -47,6 +48,7 @@
     line-height: 28px;
     color: #656464;
     margin: 0px;
+    max-width: 400px;
 
 }
 .ullist{
@@ -56,12 +58,12 @@
     flex-direction: column;
     font-family: 'Inter';
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 18px;
     text-align: left;
     gap: 16px;
     color: #171648;
-    ;
+    padding-left: 20px;
 }
 li::marker{
     color: #217BF4;
@@ -69,8 +71,15 @@ li::marker{
 .imagensdiv{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-self: flex-start;
     flex-flow: column wrap;
-    height: 400px;
-    width: auto;
+    height: 550px;
+    width: 600px;
+    gap: 20px;
+    margin-top: -60px;
+}
+.imgsobre{
+    display: flex;
+    max-width: 290px;
+    max-height: 420px;
 }
