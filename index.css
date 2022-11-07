@@ -8,6 +8,14 @@
     flex-direction: row;
     margin: 90px;
 }
+#imgpeople{
+    position: relative;
+    right: 15px;
+}
+#imgellipse{
+    position: relative;
+    right: 10px;
+}
 .rating{
     display: flex;
     box-sizing: border-box;
