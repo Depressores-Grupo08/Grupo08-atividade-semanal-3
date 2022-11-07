@@ -1,12 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-.Avaliacoes{
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    align-items: center;
-}
+
 .tela3{
     display: flex;
     justify-content: center;
@@ -111,7 +106,7 @@
     font-size: 14px;
     text-align: center;
 }
-body{
+body
     margin: 0px;
     padding: 0px;
     background: #E5F0FD;
@@ -169,7 +164,7 @@ body{
     font-size: 20px;
     color: #656464;
 
-
+}
 .home{
     display: block;
     margin: 0px;
