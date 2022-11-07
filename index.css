@@ -153,6 +153,12 @@ ul {
 
 }
 
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .content-img{
     display: flex;
     min-width: 100px;
